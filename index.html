@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#fce8ee" />
+  <meta name="description" content="Nails by Ale — Manicura, nail art, extensiones y trenzas. Agenda tu cita fácilmente." />
+  <title>Nails by Ale 💅</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+
+<nav>
+  <a href="#inicio" class="nav-logo">Nails by Ale</a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#agenda">Agendar</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <a href="#" data-wa class="nav-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="inicio">
+  <div class="sparkles">
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+  </div>
+  <div class="hero-content">
+    <div class="brand-name">Nails by Ale</div>
+    <div class="brand-sub">&amp; Trenzas</div>
+    <p class="tagline">✦ <span>Belleza en tus manos</span> · <span>Confianza en ti</span> ✦</p>
+    <div class="hero-btns">
+      <a href="#agenda" class="btn-primary">💅 Agendar Cita</a>
+      <a href="#servicios" class="btn-outline">Ver Servicios</a>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Desliza</span><span>↓</span></div>
+</section>
+
+<!-- SERVICIOS -->
+
+<section id="servicios">
+  <div class="section-title">
+    <span class="section-label">✦ Lo que ofrezco</span>
+    <h2>Servicios</h2>
+    <div class="divider">💗</div>
+  </div>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="showTab('unas')">💅 Uñas</button>
+    <button class="tab-btn"        onclick="showTab('trenzas')">✨ Trenzas</button>
+  </div>
+
+  <div class="services-grid active" id="unas">
+    <div class="service-card">
+      <span class="service-icon">💅</span>
+      <h3>Manicura Clásica</h3>
+      <p>Limpieza, corte, limado y esmaltado tradicional</p>
+      <span class="service-price">Desde $25.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">✨</span>
+      <h3>Gel Semipermanente</h3>
+      <p>Duración de 3 a 4 semanas, brillo intenso</p>
+      <span class="service-price">Desde $45.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🎨</span>
+      <h3>Nail Art &amp; Diseños</h3>
+      <p>Diseños personalizados, flores, abstracto y más</p>
+      <span class="service-price">Desde $55.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">💎</span>
+      <h3>Extensiones de Uñas</h3>
+      <p>Extensiones en tips o molde, largo a tu gusto</p>
+      <span class="service-price">Desde $70.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🌸</span>
+      <h3>Acrílico y Polygel</h3>
+      <p>Mayor durabilidad y resistencia, efecto natural</p>
+      <span class="service-price">Desde $80.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🔧</span>
+      <h3>Nivelación y Gel Constructor</h3>
+      <p>Mantenimiento y refuerzo de uñas naturales</p>
+      <span class="service-price">Desde $60.000</span>
+    </div>
+  </div>
+
+  <div class="services-grid" id="trenzas">
+    <div class="service-card">
+      <span class="service-icon">🪢</span>
+      <h3>Trenzas Clásicas</h3>
+      <p>Trenzas tradicionales en todos los tamaños</p>
+      <span class="service-price">Desde $35.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🌟</span>
+      <h3>Box Braids</h3>
+      <p>Con extensión, media o larga, varios grosores</p>
+      <span class="service-price">Desde $120.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">💫</span>
+      <h3>Knotless Braids</h3>
+      <p>Sin nudo, más cómodas y naturales al tacto</p>
+      <span class="service-price">Desde $140.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🔥</span>
+      <h3>Feed-In Braids</h3>
+      <p>Cornrows con extensión, estilo sport o elegante</p>
+      <span class="service-price">Desde $80.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">👑</span>
+      <h3>Fulani Braids</h3>
+      <p>Estilo afro tradicional con accesorios</p>
+      <span class="service-price">Desde $100.000</span>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🌺</span>
+      <h3>Peinados Especiales</h3>
+      <p>Recogidos con trenzas para eventos y graduaciones</p>
+      <span class="service-price">Desde $60.000</span>
+    </div>
+  </div>
+</section>
+
+<!-- AGENDA -->
+
+<section id="agenda">
+  <div class="section-title">
+    <span class="section-label">✦ Reserva tu espacio</span>
+    <h2>Agenda tu Cita</h2>
+    <div class="divider">💗</div>
+    <p style="color:var(--text-light);font-size:.88rem;margin-top:.5rem;">Completa el formulario y te escribiré por WhatsApp para confirmar 🌸</p>
+  </div>
+  <div class="booking-container">
+    <div class="form-group">
+      <label for="nombre">👤 Tu nombre completo</label>
+      <input type="text" id="nombre" placeholder="Ej: María García" autocomplete="name" />
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="telefono">📱 WhatsApp</label>
+        <input type="tel" id="telefono" placeholder="300 123 4567" autocomplete="tel" />
+      </div>
+      <div class="form-group">
+        <label for="tipo">🎯 Tipo de servicio</label>
+        <select id="tipo">
+          <option value="">Selecciona...</option>
+          <option value="uñas">💅 Uñas</option>
+          <option value="trenzas">🪢 Trenzas</option>
+          <option value="ambos">💅🪢 Ambos</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="servicio">✨ Servicio específico</label>
+      <select id="servicio">
+        <option value="">Selecciona primero el tipo...</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="fecha">📅 Fecha deseada</label>
+        <input type="date" id="fecha" />
+      </div>
+      <div class="form-group">
+        <label for="hora">⏰ Hora preferida</label>
+        <select id="hora">
+          <option value="">Selecciona...</option>
+          <option>8:00 AM</option><option>9:00 AM</option><option>10:00 AM</option>
+          <option>11:00 AM</option><option>12:00 PM</option><option>1:00 PM</option>
+          <option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option>
+          <option>5:00 PM</option><option>6:00 PM</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="notas">💬 Notas adicionales (opcional)</label>
+      <textarea id="notas" placeholder="Cuéntame qué tienes en mente: colores, diseño, referencia..."></textarea>
+    </div>
+    <button class="submit-btn" onclick="enviarWhatsApp()">💬 Enviar por WhatsApp</button>
+    <p class="form-note">📌 Recibirás confirmación en menos de 24 horas</p>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+
+<section id="galeria">
+  <div class="section-title">
+    <span class="section-label">✦ Trabajos realizados</span>
+    <h2>Galería</h2>
+    <div class="divider">💗</div>
+    <p style="color:var(--text-light);font-size:.85rem;margin-top:.5rem;">Próximamente más fotos de nuestros trabajos ✨</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item"><div class="gallery-placeholder"><span>💅</span>UÑAS</div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"><span>🎨</span>NAIL ART</div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"><span>💎</span>EXTENSIONES</div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"><span>🪢</span>TRENZAS</div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"><span>👑</span>BOX BRAIDS</div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"><span>🌸</span>GEL</div></div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+
+<section id="contacto">
+  <div class="section-title">
+    <span class="section-label">✦ Encuéntrame</span>
+    <h2>Contacto</h2>
+    <div class="divider">💗</div>
+  </div>
+  <div class="contact-cards">
+    <div class="contact-card">
+      <span class="icon">📱</span>
+      <p>WhatsApp</p>
+      <strong>317 402 3281</strong>
+    </div>
+    <div class="contact-card">
+      <span class="icon">📸</span>
+      <p>Instagram</p>
+      <strong>@nailsbyale</strong>
+    </div>
+    <div class="contact-card">
+      <span class="icon">⏰</span>
+      <p>Horario</p>
+      <strong>Lun – Sáb · 8 am – 7 pm</strong>
+    </div>
+  </div>
+  <a href="#" data-wa class="wa-big" target="_blank" rel="noopener">💬 Escríbeme por WhatsApp</a>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <p>Hecho con <span>♥</span> para <strong style="color:rgba(255,255,255,.7)">Nails by Ale</strong> · Todos los derechos reservados 2025</p>
+</footer>
+
+<!-- Botón flotante -->
+
+<a href="#" data-wa class="float-wa" target="_blank" rel="noopener" title="Escríbeme">💬</a>
+
+<script src="app.js"></script>
+
+</body>
+</html>
